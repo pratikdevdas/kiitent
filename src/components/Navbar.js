@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import LogoIcon from "../DesignAGENCY.png";
-import Burger from './Burger';
+import Burger from "./Burger";
 
 const PrimaryNav = styled.nav`
   height: 90px;
@@ -13,17 +13,17 @@ const PrimaryNav = styled.nav`
   padding: 0 calc((100vw - 1400px) / 2);
   @media (max-width: 1440px) {
     max-width: 1100px;
-  margin: 0 auto ;
+    margin: 0 auto;
   }
 
   @media (max-width: 1200px) {
     max-width: 900px;
-  margin: 0 auto ;
+    margin: 0 auto;
   }
 
   @media (max-width: 1000px) {
     max-width: 800px;
-     margin: 0 auto ;
+    margin: 0 auto;
   }
 `;
 
@@ -48,7 +48,7 @@ const Navbar = () => {
       <PrimaryNav>
         <HeaderImage src={LogoIcon} />
         <Menu>
-          <Burger/>
+          <Burger />
         </Menu>
       </PrimaryNav>
     </>

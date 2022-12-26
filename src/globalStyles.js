@@ -17,7 +17,7 @@ export const MainHeading = styled.h1`
   font-size: clamp(2.3rem, 3.5vw, 4.5rem);
   margin-bottom: 1rem;
   font-weight: 700;
-  @media screen and (max-width: 1440px ) and (min-width: 770px) {
+  @media screen and (max-width: 1440px) and (min-width: 770px) {
     font-size: clamp(1.5rem, 2.8vw, 2.5rem);
   }
 `;

@@ -38,7 +38,7 @@ const MenuLink = styled.a`
   &.active {
     color: #000000;
   }
-  border-radius: 10px;
+  border-radius: 10px;  
   padding: 0.7rem 1.3rem;
   @media (max-width: 1000px) {
     margin: 0 .4rem;

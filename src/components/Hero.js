@@ -39,11 +39,10 @@ const TextWrapper = styled.div`
   }
 `;
 
-const ImageWrapper = styled.div`
-`;
+const ImageWrapper = styled.div``;
 
 const Image = styled.img`
-display: block;
+  display: block;
   @media (max-width: 1500px) {
     display: block;
     width: 90%;

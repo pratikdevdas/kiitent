@@ -31,14 +31,14 @@ const IconWrapper = styled(Container)`
   margin: 0 auto;
 
   @media (max-width: 1500px) {
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 20px;
   }
 
   @media (max-width: 500px) {
-   display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: start;
     gap: 20px;
@@ -47,13 +47,12 @@ const IconWrapper = styled(Container)`
   @media (max-width: 370px) {
     display: flex;
     flex-direction: column;
-
   }
 `;
 
 const Icon = styled.img`
-display: block;
-background-color: white;
+  display: block;
+  background-color: white;
 `;
 
 const Bottom = () => {
