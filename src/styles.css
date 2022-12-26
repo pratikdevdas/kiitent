@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  background-color: #d7f5dc;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1500px) {
+  .App{
+    overflow: hidden;
+  }
+}
